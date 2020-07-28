@@ -1,0 +1,20 @@
+.Navigation {
+    min-width: 100%;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: grey
+}
+
+.navLinks a {
+    color: grey
+}
+
+.navLinks .active {
+    color: black;
+    text-decoration: underline;
+}

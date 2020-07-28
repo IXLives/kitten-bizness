@@ -1,14 +1,14 @@
 import React from 'react'
 import { Container, Row, Column } from 'react-bootstrap'
 
-const Landing = () => {
+const Adopt = () => {
     return (
-        <Container fluid className='LandingPage'>
+        <Container fluid className='AdoptPage'>
             <Row>
-                <h1>Kitten Bizness Cat Stuff</h1>
+                <h1>Kittens we've found Homes for</h1>
             </Row>
         </Container>
     )
 }
 
-export default Landing
+export default Adopt
